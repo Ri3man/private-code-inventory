@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "measured_at": "2026-11-09T00:00:00+00:00",
+  "repository_label": "local repository",
+  "scope": "Aggregate local Git metadata. Not a valuation, ownership decision, security scan or buyer acceptance.",
+  "history": {
+    "available_reachable_commits": 3,
+    "is_shallow": false,
+    "committer_dates_sampled": 3,
+    "date_range_complete_for_available_history": true,
+    "earliest_observed_committer_date": "2024-01-02T12:00:00+00:00",
+    "latest_observed_committer_date": "2025-02-01T08:00:00+00:00",
+    "note": "Counts and dates cover locally available reachable commits; a shallow repository omits earlier history. Commit timestamps may be rewritten and do not verify age, authorship or production use."
+  },
+  "current_committed_tree": {
+    "head_available": true,
+    "is_bare_repository": false,
+    "tracked_files": 7,
+    "file_types_by_extension": {
+      "Documentation": 1,
+      "JavaScript": 1,
+      "Other": 4,
+      "Python": 1
+    },
+    "submodule_entries_not_traversed": 0,
+    "license_document_present": true,
+    "potentially_sensitive_filename_count": 2,
+    "note": "Committed HEAD only; file types are extension-based. Working-tree changes and source contents are not examined. Filename signals are not a secret scan."
+  },
+  "not_assessed": [
+    "ownership or permission to license",
+    "third-party licence compatibility",
+    "human versus generated authorship",
+    "production use",
+    "source-code quality",
+    "pull-request discussions and issue trackers",
+    "secrets or personal data in contents/history",
+    "buyer fit, price or payment timing"
+  ],
+  "sharing": "Nothing is uploaded. Review this aggregate report and decide whether to share it yourself."
+}

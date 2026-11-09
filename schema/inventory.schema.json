@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Private-code aggregate inventory 1.0.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "measured_at", "repository_label", "scope", "history", "current_committed_tree", "not_assessed", "sharing"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "measured_at": {"type": "string", "format": "date-time"},
+    "repository_label": {"const": "local repository"},
+    "scope": {"type": "string"},
+    "history": {
+      "type": "object", "additionalProperties": false,
+      "required": ["available_reachable_commits", "is_shallow", "committer_dates_sampled", "date_range_complete_for_available_history", "earliest_observed_committer_date", "latest_observed_committer_date", "note"],
+      "properties": {
+        "available_reachable_commits": {"type": "integer", "minimum": 0},
+        "is_shallow": {"type": "boolean"},
+        "committer_dates_sampled": {"type": "integer", "minimum": 0, "maximum": 100000},
+        "date_range_complete_for_available_history": {"type": "boolean"},
+        "earliest_observed_committer_date": {"type": ["string", "null"]},
+        "latest_observed_committer_date": {"type": ["string", "null"]},
+        "note": {"type": "string"}
+      }
+    },
+    "current_committed_tree": {
+      "type": "object", "additionalProperties": false,
+      "required": ["head_available", "is_bare_repository", "tracked_files", "file_types_by_extension", "submodule_entries_not_traversed", "license_document_present", "potentially_sensitive_filename_count", "note"],
+      "properties": {
+        "head_available": {"type": "boolean"},
+        "is_bare_repository": {"type": "boolean"},
+        "tracked_files": {"type": "integer", "minimum": 0},
+        "file_types_by_extension": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+        "submodule_entries_not_traversed": {"type": "integer", "minimum": 0},
+        "license_document_present": {"type": "boolean"},
+        "potentially_sensitive_filename_count": {"type": "integer", "minimum": 0},
+        "note": {"type": "string"}
+      }
+    },
+    "not_assessed": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "sharing": {"type": "string"}
+  }
+}

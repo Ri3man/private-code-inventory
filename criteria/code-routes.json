@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "snapshot_id": "code-routes-2026-11-09",
+  "reviewed_at": "2026-11-09",
+  "scope": "Selected public statements useful when preparing an owner inquiry. Not comprehensive, not buyer verification, not acceptance or valuation.",
+  "maintenance": "Recheck primary sources before use. A snapshot older than 30 days is stale; do not silently change its review date.",
+  "routes": [
+    {
+      "name": "Patronus AI",
+      "route_type": "direct buyer, according to its partner page",
+      "material": {
+        "statement": "Private codebases with development history and supporting context such as pull requests, issues and documentation; older systems still used to run a business are an example of interest.",
+        "source": "https://data.patronus.ai/partners"
+      },
+      "review": {
+        "statement": "Public sample terms describe an NDA before sharing, a named scope and evaluation-only use. The code sample is a buildable snapshot with the last twelve months of history.",
+        "source": "https://data.patronus.ai/evaluation-terms"
+      },
+      "owner_payment": {
+        "statement": "The public process says full review takes up to 30 days and the owner is paid directly on acceptance. These are published process statements, not a guarantee for a particular submission.",
+        "source": "https://data.patronus.ai/"
+      },
+      "introducer_payment": {
+        "statement": "15% of the license fee after the owner is paid, subject to the partner agreement. Separate from the owner's compensation.",
+        "source": "https://data.patronus.ai/partners"
+      },
+      "unknowns": ["asset acceptance", "owner price", "country and other eligibility details", "final licence scope", "individual attribution and agreement"],
+      "publisher_relationship": "Data Ledger's guide uses a disclosed referral link. No paid referral outcome is claimed."
+    },
+    {
+      "name": "Pangea.ai code licensing",
+      "route_type": "code-licensing intermediary/program",
+      "material": {
+        "statement": "The public referral page describes real production source code with Git history, selected owned repositories, excluding client work and NDA-restricted material, and redacting sensitive material before submission.",
+        "source": "https://pangea.ai/code-licensing/referral"
+      },
+      "owner_payment": {
+        "statement": "Published owner-rate examples are illustrative rather than quotes; actual amounts depend on codebase valuation and buyer demand.",
+        "source": "https://pangea.ai/code-licensing/referral"
+      },
+      "introducer_payment": {
+        "statement": "The referral page advertises 15% of what a referred owner is paid, including future re-licences, within 15 days after fees are paid out. This is contingent on an actual paid licence and applicable terms.",
+        "source": "https://pangea.ai/code-licensing/referral"
+      },
+      "unknowns": ["asset acceptance", "owner price and payment schedule", "final terms", "actual buyer demand", "individual attribution"],
+      "publisher_relationship": "No Data Ledger Pangea referral is asserted in this snapshot."
+    }
+  ],
+  "change_history": [
+    {"date": "2026-11-09", "change": "Initial public-source snapshot. Published claims and unknowns kept separate."}
+  ]
+}
