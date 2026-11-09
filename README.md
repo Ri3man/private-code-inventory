@@ -4,6 +4,8 @@ A small, local Git metadata report for people preparing to discuss licensing a p
 
 This tool helps answer **what history and file types are available**. It does not determine ownership, licence compatibility, security, quality, price or whether a buyer will accept your code.
 
+For the next step, read [Preparing a private codebase for an AI licensing inquiry](GUIDE.md): how to interpret the report, describe the material without uploading it, and ask a buyer about review and payment terms.
+
 ## Run it locally
 
 Download and inspect `private-code-inventory.py`, then run it against the root directory of a repository already on your device. Nested directories are rejected so a subfolder cannot silently produce a report for its whole parent repository:
