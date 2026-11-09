@@ -46,7 +46,9 @@ Before sharing anything, establish who can authorize the proposed use, which cli
 
 [`criteria/code-routes.json`](criteria/code-routes.json) records a small, dated set of public statements with primary source links. It separates owner payments from introducer payments. It is neither a comprehensive marketplace nor evidence of a completed transaction. Unknowns stay explicit, and source statements may change.
 
-Data Ledger maintains this utility and the [private-code preparation guide](https://requiem-lead-lab.shortbuddy.chatgpt.site/guides/license-private-code). The guide discloses its referral relationship. This repository does not contain affiliate redirects or collect reports.
+Data Ledger maintains this utility and the [private-code preparation guide](https://requiem-lead-lab.shortbuddy.chatgpt.site/guides/license-private-code). Neither the utility nor this repository collects your report.
+
+Optional, if you are authorized to discuss a codebase: [start a Patronus inquiry (referral link)](https://data.patronus.ai/r/cpwqtD4), or use its [untracked owner page](https://data.patronus.ai/). Data Ledger may receive a fee if a qualifying licence completes under the partner agreement. Patronus handles its own intake; no acceptance or payment is guaranteed.
 
 ## Tests and example
 

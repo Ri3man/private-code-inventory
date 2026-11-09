@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "snapshot_id": "code-routes-2026-11-09",
+  "snapshot_id": "code-routes-2026-11-09-r2",
   "reviewed_at": "2026-11-09",
   "scope": "Selected public statements useful when preparing an owner inquiry. Not comprehensive, not buyer verification, not acceptance or valuation.",
   "maintenance": "Recheck primary sources before use. A snapshot older than 30 days is stale; do not silently change its review date.",
@@ -35,18 +35,19 @@
         "source": "https://pangea.ai/code-licensing/referral"
       },
       "owner_payment": {
-        "statement": "Published owner-rate examples are illustrative rather than quotes; actual amounts depend on codebase valuation and buyer demand.",
-        "source": "https://pangea.ai/code-licensing/referral"
+        "statement": "The owner page says payment is within 15 days after buyer payment, subject to required tax and payout details. This is not a deadline from submission. Owner-rate examples are illustrative; actual amounts depend on codebase valuation and buyer demand.",
+        "source": "https://pangea.ai/code-licensing/companies"
       },
       "introducer_payment": {
         "statement": "The referral page advertises 15% of what a referred owner is paid, including future re-licences, within 15 days after fees are paid out. This is contingent on an actual paid licence and applicable terms.",
         "source": "https://pangea.ai/code-licensing/referral"
       },
-      "unknowns": ["asset acceptance", "owner price and payment schedule", "final terms", "actual buyer demand", "individual attribution"],
+      "unknowns": ["asset acceptance", "owner price and actual payment date", "final terms", "actual buyer demand", "individual attribution"],
       "publisher_relationship": "No Data Ledger Pangea referral is asserted in this snapshot."
     }
   ],
   "change_history": [
-    {"date": "2026-11-09", "change": "Initial public-source snapshot. Published claims and unknowns kept separate."}
+    {"date": "2026-11-09", "change": "Initial public-source snapshot. Published claims and unknowns kept separate."},
+    {"date": "2026-11-09", "change": "Added Pangea's primary owner-page payment event; kept it separate from introducer compensation."}
   ]
 }
